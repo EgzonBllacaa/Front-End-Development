@@ -1,0 +1,22 @@
+@mixin btn() {
+    color: $white;
+    padding: 17px 30px;
+    background-color: $purple;
+    font-size: $font-sm;
+    font-weight: bold; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    -webkit-transition: all ease-in-out 1s;
+    -o-transition: all ease-in-out 1s;
+    transition: all ease-in-out 1s;
+}
+@mixin flex() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex-align() {
+    display: flex;
+    align-items: center;
+}
